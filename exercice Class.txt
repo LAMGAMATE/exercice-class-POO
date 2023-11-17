@@ -1,0 +1,52 @@
+1 class player:
+ def_init_(self , name , age , rank ):
+  self.name = name
+  self.age = age
+  self.rank = rank
+ def information(self):
+    print("the player name {} The age {} the rank {} " .format(self.name , self.age , self.rank))
+player1=player("kamal",32,159)
+player2=player("ahmad",31,125)
+player1.info()
+player2.info()
+
+2 class car:
+def_init_(self , speed,color,nitro,model) :
+  self.speed= speed
+  self.color= color
+  self.nitro = nitro
+  self.model = model
+ def information(self) :
+    print("speed {}color{}nitro {}model{} ".format(self.speed , self.color , self.nitro , self.model))
+car1=car(180,"black",200,2023)
+car2=car(190,"white",201,2023)
+car1.info()
+car2.info()
+
+
+3 class employee:
+ def_init_(self,name,sales,bonushrs,basesalary ) :
+  self.name = name
+  self.sales= sales
+  self.bonushrs= bonushrs
+  self.baseSalary= basesalary
+ def info(self) :
+    print("employee name{}sales{}bonushrs{}basesalary{}" .format(self.name,self.sales,self.bonushrs,self.basesalary))
+employe1=employee("ahmad",4,10,"200DH")
+employe2=employee("kamal",10,21,"320DH")
+employee1.info()
+employee2.info()
+
+
+4 class mobile:
+ def_init_(self,company,storage,serialnum,dualsim) :
+  self.companyname= company
+  self.storage= storage
+  self.serialnum= serialnum
+  self.dualsim= dualsim
+ def info(self):
+    print("company {}storage{}the serialnum{}the dualsim{}".format(self.company,self.storage,self.serialnum,self.dualsim))
+mobile1=mobile( "iphone","250GB","DLKGOTKOKPLR","yes")
+mobile2=mobile( "samsung","32GB","ZLOLRPRO5487R","yes")
+mobile1.info()
+mobile2.info()
